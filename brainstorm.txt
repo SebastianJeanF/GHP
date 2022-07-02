@@ -1,0 +1,11 @@
+There needs to be a camera attached near the hand of the robot
+
+The camera feed needs to be sent to a running python program that will run a face detection on it
+and subsequently find the coordinates of the face
+
+The coordinates data needs to be continuously sent to an arduino
+
+The arduino uses the coordinate data to rotate the robot arm or enable it
+to lower and hit the face
+    If the coordinates don't change from call to call, the robot won't move in the x/y directions
+
